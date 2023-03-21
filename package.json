@@ -1,0 +1,37 @@
+{
+  "name": "dsi-mod-pr8",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "coverage": "nyc npm test && nyc report --reporter=lcov",
+    "doc": "typedoc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pablourquia/DSI-mod-pr8.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pablourquia/DSI-mod-pr8/issues"
+  },
+  "homepage": "https://github.com/Pablourquia/DSI-mod-pr8#readme",
+  "devDependencies": {
+    "@types/chai": "^4.3.4",
+    "@types/mocha": "^10.0.1",
+    "chai": "^4.3.7",
+    "eslint-config-prettier": "^8.8.0",
+    "mocha": "^10.2.0",
+    "nyc": "^15.1.0",
+    "prettier": "^2.8.6",
+    "ts-node": "^10.9.1",
+    "tsc-watch": "^6.0.0",
+    "typedoc": "^0.23.28"
+  },
+  "dependencies": {
+    "coverage": "^0.4.1"
+  }
+}
