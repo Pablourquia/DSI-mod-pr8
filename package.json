@@ -32,6 +32,7 @@
     "typedoc": "^0.23.28"
   },
   "dependencies": {
-    "coverage": "^0.4.1"
+    "coverage": "^0.4.1",
+    "typescript": "^5.0.2"
   }
 }
